@@ -1,4 +1,4 @@
-a:hover {
+#header a:hover {
     background: #ffbb42;
     color: #ffffff;
 }
@@ -30,17 +30,16 @@ a:hover {
 .banner-bg h1{
     color: #ffffff;
     font-family: "Open Sans";
-    line-height: 22.76px;
     font-size: 33px;
-    font-weight: 300;
-    letter-spacing: -0.88px;
+    font-weight: 800;
     text-transform: uppercase;
     padding-top: 102px;
 }
 .banner-bg p{
     color: #ffffff;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans";
     font-weight: 300;
+    letter-spacing: -0.50px;
 }
 .form-check-inline{
     padding-left: 10px;
@@ -85,6 +84,8 @@ input[type="tel"] {
     background-color: #fff;
 }
 .button-form{
+    font-family: "Open Sans";
+    text-transform: uppercase;
     height: 44px;
     width: 200px;
     color: #ffffff;
@@ -127,14 +128,30 @@ input[type="tel"] {
 #service{
     color: #394b50;
 }
-.service-banner{
+.service-banner h2{
+    font-family: "Open Sans";
+    font-weight: 800;
+    text-align: center; 
+}
+.service-banner p{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
     text-align: center;
     padding-bottom: 83px;
 }
-.service-text{
+#service div h3{
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #394b50;
+}
+#service div p{
+    font-family: "Open Sans";
+    font-size: 14px;
     color: #7b7b7b;
 }
-
 
 #about-us{
     background-color: #ffc155;
@@ -149,7 +166,17 @@ input[type="tel"] {
     margin-top: 160px;
     padding-left: 90px;
 }
+.text-about h2{
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 700;
+}
+.text-about p{
+    font-family: "Open Sans";
+    font-size: 14px;
+}
 .button-about{
+    font-family: "Lato";
     width: 140px;
     height: 40px;
     text-transform: uppercase;
@@ -172,6 +199,17 @@ input[type="tel"] {
     text-align: center;
     padding-top: 130px;
 }
+.choos-banner h2{
+    font-family: "Lato";
+    font-size: 28px;
+    font-weight: 900;
+}
+.choos-banner p{
+    font-family: "Lato";
+    font-size: 17px;
+    font-weight: 300;
+}
+
 #price-table ul{
     display: table;
     margin: 0 auto;
@@ -186,54 +224,58 @@ input[type="tel"] {
     border: 1px solid #ccd5df;
     background-color: #ffffff;
 }
-#price-table li :hover{
-    color: #fff;
-
-}
 #price-table ul li:hover{
     background-color: #709dca;
     border-color:#8eb8e2 rgba(255, 255, 255, 0.27);
     box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
     z-index: 1;
     transform: scale(1.05);
-}
-#price-table ul li .text1 :hover{
     color: #ffffff;
 }
 #price-table li strong{
-    font-size: 19px;
+    font-family: "Lato";
+    font-size: 24px;
     margin-top: 30px;
     text-transform: uppercase;
     color: #818b95;
     line-height: 45px;
-    font-weight: 400;
+    font-weight: 300;
     display: block;
     text-align: center;
 }
 #price-table li .big{
-    font-size: 52px;
+    font-family: "Lato";
+    font-size: 57px;
+    font-weight: 400;
     letter-spacing: 2px;
     display: block;
-    font-weight: 600;
     text-align: center;
     color: #ffbb42;
 }
 #price-table li .text1{
+    font-family: "Lato";
+    font-size: 13px;
+    font-weight: 400;
     display: block;
-    font-size: 14px;
     padding-bottom: 20px;
     text-align: center;
     color: #818b95;
     text-transform: uppercase;
 }
-
 #price-table li .text2{
+    font-family: "Lato";
+    font-size: 13px;
+    font-weight: 400;
     display: block;
-    font-size: 16px;
     line-height: 5px;
     text-align: center;
     color: #b5bbc1;
     text-transform: uppercase;
+}
+#price-table li :hover{
+    color: #fff;
+    border-color: #8eb8e2;
+
 }
 .price-border{
     border-top: 1px solid #e2e9f0;
@@ -242,6 +284,9 @@ input[type="tel"] {
 .button-price{
     height: 41px;
     width: 125px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 14px;
     color: #ffffff;
     text-transform: uppercase;
     background-color: #ffbb42;
@@ -252,9 +297,10 @@ input[type="tel"] {
     text-align: center;
     margin-left: 123px;
 }
-.button-price{
-    margin-top: 30px;
-    margin-bottom: 50px;
+.button-price:hover {
+    background-color: #e7ad48;
+    border-color: #e7ad48;
+    color: #ffffff;
 }
 
 
@@ -264,6 +310,16 @@ input[type="tel"] {
 }
 .cup{
     margin-top: 145px;
+}
+.cup h2{
+    font-family: "Lato";
+    font-size: 28px;
+    font-weight: 900;
+}
+.cup p{
+    font-family: "Lato";
+    font-size: 17px;
+    font-weight: 300;
 }
 .elements{
     margin-top: 50px;
@@ -279,14 +335,37 @@ input[type="tel"] {
     margin-left: 32px;
     margin-right: 32px;
 }
+.step h5{
+    font-family: "Lato";
+    font-size: 19px;
+    font-weight: 700;
+    color: #394b50;
+}
+.step p{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #7b7b7b;
+}
 .button-step{
+    font-family: "Lato";
+    font-weight: 400;
+    text-transform: uppercase;
     height: 45px;
     width: 157px;
-    color: #ffffff;
     background-color: #ffbb42;
     border-color: #ffbb42;
     margin-top: 84px;
     margin-bottom: 140px;
+}
+.button-step a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.button-step:hover {
+    background-color: #e7ad48;
+    border-color: #e7ad48;
+    color: #ffffff;
 }
 
 
@@ -295,11 +374,18 @@ input[type="tel"] {
     height: 875px;
 }
 .happy h2{
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 900;
     text-align: center;
     color: #ffffff;
     margin-top: 110px;
+    
 }
 .happy p{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
     text-align: center;
     color: #ffffff;
     margin-bottom: 35px;
@@ -307,7 +393,16 @@ input[type="tel"] {
 .table-light td{
     padding-top: 30px;
 }
+.table-light td blockquote{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    color: #7b7b7b;
+}
 .table-light td p{
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
     text-transform: uppercase;
     margin-left: 185px;
     color: #f6772c;
@@ -332,16 +427,22 @@ blockquote{
     color: #99a9ae;
 }
 
-#newsletter{
 
-}
 .letter{
     text-align: center;
     color: #394b50;
 }
 .letter h2{
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 900;
     margin-top: 100px;
     text-transform: uppercase;
+}
+.letter p{
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 300;
 }
 #newsletter form{
     margin-left: 81px;
@@ -368,6 +469,8 @@ blockquote{
     
 }
 #newsletter .button-form{
+    font-family: "Lato";
+    font-weight: 400;
     height: 45px;
     width: 207px;
     text-transform: uppercase;
@@ -375,6 +478,11 @@ blockquote{
     background-color: #ffbb42;
     border-color: #ffbb42;
     margin-bottom: 10px;
+}
+#newsletter .button-form:hover {
+    background-color: #e7ad48;
+    border-color: #e7ad48;
+    color: #ffffff;
 }
 .map{
     background: url(../img/map.png) no-repeat;
@@ -389,31 +497,44 @@ blockquote{
     margin-bottom: 74px;
 }
 .address{
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
     margin-left: 110px;
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 15px;
 }
 .street{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
     margin-left: 96px;
     color: #aeb7ba;
     margin-bottom: 0;
     line-height: 2;
-    font-size: 14px;
 }
 .home, .call{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
     margin-left: 84px;
     color: #aeb7ba;
     margin-bottom: 0;
     line-height: 2;
-    font-size: 14px;
+}
+.call a{
+    color: #aeb7ba
 }
 .mail{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
     margin-left: 77px;
-    color: #ffbb42;
     margin-bottom: 0;
     line-height: 2;
-    font-size: 14px;
+}
+.mail a{
+    color: #ffbb42;
 }
 .map-logo{
     margin-left: 29px;
@@ -426,6 +547,11 @@ blockquote{
 }
 .navfooter{
     margin-top: 50px;
+}
+.navfooter a:hover {
+    background: #ffbb42;
+    color: #ffffff;
+    text-decoration: none;
 }
 .nav li{
     float: left;
@@ -441,9 +567,12 @@ blockquote{
     text-transform: uppercase;
 }
 .tell-footer{
+    font-family: "Lato";
+    font-size: 21px;
+    font-weight: 400;
     font-style: normal;
-    font-size: 17px;
     line-height: 3;
+    color: #394b50;
 }
 
 #footer{
@@ -451,7 +580,9 @@ blockquote{
     background-color: #709dca;
 }
 #footer p{
-    color: #fff;
+    font-family: "Open Sans";
     font-size: 13px;
+    font-weight: 400;
+    color: #fff;
     margin-top: 10px;
 }
