@@ -4,10 +4,15 @@
     }
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+nav a:hover{
     background: #ffbb42;
     color: #ffffff;
 }
+
+/*.navbar-light .navbar-nav .nav-link:hover {
+    background: #ffbb42;
+    color: #ffffff;
+}*/
 
 .navbar-light .navbar-nav .nav-link{
     color: #868686;
@@ -560,9 +565,11 @@ blockquote{
     padding: 8px 15px;
     background-color: #fff;
     color: #394b50;
-    text-decoration: none;
     position: relative;
     text-transform: uppercase;
+}
+.footmenu a{
+    text-decoration: none;
 }
 .tell-footer{
     font-family: "Lato";
