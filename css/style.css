@@ -1,21 +1,19 @@
-#header a:hover {
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
     background: #ffbb42;
     color: #ffffff;
 }
 
-#header{
-    background-color: #ffffff;
-    color:  #868686;
+.navbar-light .navbar-nav .nav-link{
+    color: #868686;
     font-family: Lato;
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 14px;
     text-transform: uppercase;
-}
-.bc-white{
-    background-color: white;
-}
-.text-grey{
-    color:  #868686;
 }
 
 
