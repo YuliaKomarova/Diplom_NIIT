@@ -135,6 +135,7 @@ input[type="tel"] {
     font-family: "Open Sans";
     font-weight: 800;
     text-align: center; 
+    padding-top: 80px;
 }
 .service-banner p{
     font-family: "Open Sans";
@@ -275,11 +276,11 @@ input[type="tel"] {
     color: #b5bbc1;
     text-transform: uppercase;
 }
-#price-table li :hover{
+/*#price-table li :hover{
     color: #fff;
     border-color: #8eb8e2;
 
-}
+}*/
 .price-border{
     border-top: 1px solid #e2e9f0;
     width: 80%;
@@ -496,7 +497,7 @@ blockquote{
     margin-top: 31px;
 }
 .map-adress{
-    margin-top: -236px;
+    margin-top: -256px;
     margin-bottom: 74px;
 }
 .address{
