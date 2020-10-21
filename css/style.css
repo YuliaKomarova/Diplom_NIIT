@@ -346,8 +346,8 @@ input[type="text"], input[type="tel"] {
     text-align: center;
     color: #7b7b7b;
 }
-#how-it-work .container{
-    padding-bottom: 50px;
+#how-it-work {
+    padding-bottom: 70px;
 }
 
 
